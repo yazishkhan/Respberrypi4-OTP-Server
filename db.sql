@@ -1,0 +1,10 @@
+CREATE DATABASE otp_service;
+
+USE otp_service;
+
+CREATE TABLE otps (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    phone VARCHAR(20) NOT NULL,
+    otp VARCHAR(6) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
