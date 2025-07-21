@@ -165,8 +165,8 @@
     mysql -u root -p 
     ````
     - Then it asks for password enter it.
-    - At first it through Error like this.
-    ![Image](https://github.com/user-attachments/assets/27291085-30a2-4062-a3b7-6a45245cb347)
+    - At first it through Error like this. <br/>
+    ![Image](https://github.com/user-attachments/assets/27291085-30a2-4062-a3b7-6a45245cb347) 
     -  The issue is most likely that the password was not actually set for the root user. SOLVED by this!
     1. Enter MariaDB shell as root:
 
@@ -194,7 +194,6 @@
         mysql -u root -p
         ````
         **It has been finally solved.**
-<br/>
 - Creating Database.
     1. Run these Script to create database. (On Mysql terminal).
         
@@ -203,7 +202,7 @@
         ````
     - replace the path `/home/pi/Downloads/db.sql` As per repo you cloned on your device.
     - It will automatically create database.
-<br/>    
+          
 - Linking Database to python code.
     1. Open the file called `flask-otp-DB.py`.
         ````bash
@@ -229,7 +228,7 @@
     - `flask.log 2>&1`: Saves output & errors to `flask.log`
 
     - `&`: Runs in background
-    <br/>
+      
 - 🔍 To check if it's running:
     ````bash
     ps aux | grep flask-otp-DB.py
