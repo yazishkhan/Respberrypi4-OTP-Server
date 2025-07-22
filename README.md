@@ -123,10 +123,10 @@
 -- And connect to the Tantalum capacitor present on SIM800l module. 
 ![implementation](https://github.com/user-attachments/assets/3ff007a9-caf4-41b1-b1e8-4dfab6cf0f90)
 <br/>
-##### :red_circle: Then run the scripts it's definitely  going to work.
+ :red_circle: Then run the scripts it's definitely  going to work.
 <br/>
 
-### :rocket: Running the Flask server to Test the OTP is able to send.
+ ### :rocket: Running the Flask server to Test the OTP is able to send.
 1. Run this command by using `otp_server.py` it runs a Flask server in detached mode and store all logs inside the output.log file.
     ````bash 
     nohup python3 otp_server.py > output.log 2>&1 &
