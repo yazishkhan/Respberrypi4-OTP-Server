@@ -262,4 +262,6 @@
 - Do not store OTP's in DB like plain test.
 - Whenever using this in production level add encryption and implement UI by making changes in Flask code.
 
+![Image](https://github.com/user-attachments/assets/eee253b5-5701-45e2-a5d9-529d408c788a)
+
 ### Made by. [Yazish Khan](https://www.linkedin.com/in/yazish-khan-3634752b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
